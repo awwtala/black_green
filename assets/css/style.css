@@ -92,17 +92,16 @@ ul {
 }
 
 .computer3 {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-  width: 150%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
+  max-height: 200px;
+  max-width: 100%;
+  padding: 10px;
 }
+
 .computer {
-  display: block;
-  height: 200px;
-  width: 100%;
+  overflow: hidden;
+  max-height: 200px;
+  max-width: 100%;
   margin: 0px;
   padding: 10px;
 }
@@ -140,6 +139,7 @@ ul {
   border-color: black;
 }
 .contactul {
+  padding: 5px;
   display: grid;
   list-style-type: none;
 }
