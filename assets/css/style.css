@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header1 {
+  padding: 10px;
+  background-color: #96bb9e;
+  color: black;
+  font-size: 20px;
+}
+
+.header2 ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header2 li {
+  padding: 7px;
+  margin: 0px;
+  list-style-type: none;
+}
+.ta {
+  display: inline-block;
+  font-size: 50px;
+  color: black;
+}
+
+.img1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/Greenheader.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.about-me {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 300px;
+  background-color: #b5cdb5;
+  color: #151313;
+  display: flex;
+  flex-direction: row;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+.leftcolumn {
+  flex: 0 0 10%;
+}
+
+.rightcolumn {
+  flex: 0 0 10%;
+}
+
+.computer2 {
+  display: block;
+  height: 300px;
+  width: 150%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.image {
+  float: right;
+  margin-right: 25px;
+}
+
+.about-me img {
+  max-height: 200px;
+}
+
+.work {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 600px;
+  background-color: #b5cdb5;
+  color: #151313;
+  display: flex;
+  flex-direction: row;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+.computer3 {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  width: 150%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.computer {
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.image2 {
+  float: inline-start;
+  margin-left: 500px;
+}
+
+.work img {
+  max-height: 200px;
+}
+
+.resume {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 150px;
+  background-color: #b5cdb5;
+  color: #151313;
+  display: flex;
+  flex-direction: row;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+.contact {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 150px;
+  background-color: #b5cdb5;
+  color: #151313;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.contactul {
+  display: grid;
+  list-style-type: none;
+}
